@@ -11,6 +11,6 @@ public class HelloController {
 
     @GetMapping("")
     public String hello() {
-        return "Hello from numpy ninja!";
+        return "Hello from numpy ninja 2.0!";
     }
 }
