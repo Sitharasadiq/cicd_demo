@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @GetMapping("")
+    @GetMapping("/")
     public String hello() {
         return "Hello from numpy ninja 2.0!";
     }
